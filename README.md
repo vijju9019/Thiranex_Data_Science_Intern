@@ -122,7 +122,7 @@ Thiranex_Data_Science_Internship/
 
 ### 1. Clone the Repository
 ```powershell
-git clone https://github.com/<your-username>/Thiranex_Data_Science_Internship.git
+git clone https://github.com/vijju9019/Thiranex_Data_Science_Internship.git
 cd Thiranex_Data_Science_Internship
 ```
 
@@ -246,14 +246,12 @@ git commit -m "feat: complete Thiranex data science internship portfolio with 4 
 ```
 
 ### Step 2: Push to Your GitHub Account
-1. Open your browser and navigate to [GitHub](https://github.com/new).
-2. Create a new repository named `Thiranex_Data_Science_Internship`.
-3. Set the repository visibility to **Public**.
-4. In your terminal, link your local repository and push:
+Your remote repository is already configured and pushed to:
+`https://github.com/vijju9019/Thiranex_Data_Science_Internship`
+
+To pull or push future changes:
 ```powershell
-git branch -M main
-git remote add origin https://github.com/<your-github-username>/Thiranex_Data_Science_Internship.git
-git push -u origin main
+git push origin main
 ```
 
 ---
@@ -264,16 +262,17 @@ When submitting your internship portfolio to **Thiranex**, format your submissio
 
 ```markdown
 ### Thiranex Data Science Internship Final Submission
-- **Intern Name:** <Your Name>
-- **Intern ID:** <Your Intern ID>
+- **Intern Name:** Vijay Purandare
+- **GitHub Username:** vijju9019
+- **Intern Email:** purandarevijay9019@gmail.com
 - **Submission Date:** October 2026
 
-#### Repository & Deliverables:
-- **Main GitHub Repository:** https://github.com/<your-username>/Thiranex_Data_Science_Internship
-- **Project 1 (Cleaning & Viz):** https://github.com/<your-username>/Thiranex_Data_Science_Internship/tree/main/Project_1_Data_Cleaning_Visualization
-- **Project 2 (ML Predictive Modeling):** https://github.com/<your-username>/Thiranex_Data_Science_Internship/tree/main/Project_2_Predictive_Modeling
-- **Project 3 (Advanced EDA):** https://github.com/<your-username>/Thiranex_Data_Science_Internship/tree/main/Project_3_EDA
-- **Project 4 (Retail Sales System):** https://github.com/<your-username>/Thiranex_Data_Science_Internship/tree/main/Project_4_Retail_Analytics
+#### Portfolio Repository & Projects:
+- **Main Portfolio Repository:** https://github.com/vijju9019/Thiranex_Data_Science_Internship
+- **Project 1 (Data Cleaning & Viz):** https://github.com/vijju9019/Thiranex_Data_Science_Internship/tree/main/Project_1_Data_Cleaning_Visualization
+- **Project 2 (ML Predictive Modeling):** https://github.com/vijju9019/Thiranex_Data_Science_Internship/tree/main/Project_2_Predictive_Modeling
+- **Project 3 (Exploratory Data Analysis):** https://github.com/vijju9019/Thiranex_Data_Science_Internship/tree/main/Project_3_EDA
+- **Project 4 (Retail Sales Analytics System):** https://github.com/vijju9019/Thiranex_Data_Science_Internship/tree/main/Project_4_Retail_Analytics
 ```
 
 ---
