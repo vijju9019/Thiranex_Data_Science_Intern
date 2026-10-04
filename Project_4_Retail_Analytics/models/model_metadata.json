@@ -1,0 +1,47 @@
+{
+    "best_model_name": "Linear Regression",
+    "selected_metrics": {
+        "MAE": 1799.5,
+        "RMSE": 2332.91,
+        "R2_Score": 0.3868
+    },
+    "all_models_summary": [
+        {
+            "Algorithm": "Linear Regression",
+            "MAE ($)": 1799.5,
+            "RMSE ($)": 2332.91,
+            "R\u00b2 Score": 0.3868
+        },
+        {
+            "Algorithm": "Random Forest",
+            "MAE ($)": 1782.43,
+            "RMSE ($)": 2410.35,
+            "R\u00b2 Score": 0.3454
+        },
+        {
+            "Algorithm": "Decision Tree",
+            "MAE ($)": 2122.39,
+            "RMSE ($)": 2762.2,
+            "R\u00b2 Score": 0.1403
+        }
+    ],
+    "feature_names": [
+        "DayOfWeek",
+        "DayOfMonth",
+        "Month",
+        "Quarter",
+        "IsWeekend",
+        "DayOfYear",
+        "Revenue_Lag1",
+        "Revenue_Lag7",
+        "Revenue_Lag14",
+        "Revenue_Roll7_Mean",
+        "Revenue_Roll7_Std",
+        "Revenue_Roll30_Mean",
+        "Avg_Discount",
+        "Avg_Unit_Price"
+    ],
+    "target": "Daily_Revenue",
+    "split_method": "Chronological 80/20 Out-of-Sample",
+    "horizon": "Daily Retail Revenue Forecasting"
+}

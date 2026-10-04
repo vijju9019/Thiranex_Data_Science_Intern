@@ -1,0 +1,81 @@
+{
+    "best_model_name": "Logistic Regression",
+    "selected_metrics": {
+        "Accuracy": 0.9824561403508771,
+        "Recall_Sensitivity": 0.9761904761904762,
+        "Precision_Malignant": 0.9761904761904762,
+        "F1_Score": 0.9761904761904762,
+        "ROC_AUC": 0.9953703703703705
+    },
+    "all_models_summary": [
+        {
+            "Algorithm": "Logistic Regression",
+            "Accuracy": 0.9825,
+            "Precision (Mal)": 0.9762,
+            "Recall (Sensitivity)": 0.9762,
+            "F1-Score": 0.9762,
+            "ROC-AUC": 0.9954
+        },
+        {
+            "Algorithm": "Support Vector Machine",
+            "Accuracy": 0.9825,
+            "Precision (Mal)": 0.9762,
+            "Recall (Sensitivity)": 0.9762,
+            "F1-Score": 0.9762,
+            "ROC-AUC": 0.995
+        },
+        {
+            "Algorithm": "Random Forest",
+            "Accuracy": 0.9474,
+            "Precision (Mal)": 0.9286,
+            "Recall (Sensitivity)": 0.9286,
+            "F1-Score": 0.9286,
+            "ROC-AUC": 0.9947
+        },
+        {
+            "Algorithm": "Decision Tree",
+            "Accuracy": 0.9211,
+            "Precision (Mal)": 0.8667,
+            "Recall (Sensitivity)": 0.9286,
+            "F1-Score": 0.8966,
+            "ROC-AUC": 0.9163
+        }
+    ],
+    "feature_names": [
+        "mean radius",
+        "mean texture",
+        "mean perimeter",
+        "mean area",
+        "mean smoothness",
+        "mean compactness",
+        "mean concavity",
+        "mean concave points",
+        "mean symmetry",
+        "mean fractal dimension",
+        "radius error",
+        "texture error",
+        "perimeter error",
+        "area error",
+        "smoothness error",
+        "compactness error",
+        "concavity error",
+        "concave points error",
+        "symmetry error",
+        "fractal dimension error",
+        "worst radius",
+        "worst texture",
+        "worst perimeter",
+        "worst area",
+        "worst smoothness",
+        "worst compactness",
+        "worst concavity",
+        "worst concave points",
+        "worst symmetry",
+        "worst fractal dimension"
+    ],
+    "classes": [
+        "Malignant (0)",
+        "Benign (1)"
+    ],
+    "advisory": "Educational machine learning portfolio project. Not intended for clinical or diagnostic healthcare decisions."
+}
